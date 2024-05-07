@@ -229,3 +229,101 @@
 // }
 
 // console.log(addLength("you will win")); 
+
+
+// function numbers (num) {
+// if (num%3==0 && num%5==0) 
+//     return "FizzBuzz"
+
+// if (num%5==0) 
+//     return "Buzz"
+
+// if 
+//     (num%3==0) 
+//         return "Fizz" 
+
+// return "Invalid"
+// }
+
+// console.log(numbers(11));
+
+// let arr = [3, 4, 10, 7, 14 ,19]
+// fileter
+// let dec = arr.filter(item=> item>= 10)
+// console.log(dec);
+
+// foreach 
+// let dec1 = [];
+// arr.forEach(item => {
+// of (item>=10) {
+//     dec1.push(item)    
+// }
+// })
+
+// let users = [
+//     {
+//       name: "John",
+//       age: 30,
+//       country: "UZB",
+//       cars: ["BMW", "Mercedes"]
+//     },
+//     {
+//       name: "Bob1",
+//       age: 40,
+//       country: "USA",
+//       cars: ["BMW", "tesla", "volvo"]
+//     },
+//     {
+//       name: "Jane",
+//       age: 25,
+//       country: "UZB",
+//       cars: ["lambo", "rr",  "ferrari", "bugatti"]
+//     },
+//     {
+//       name: "Nick",
+//       age: 40,
+//       country: "USA",
+//       cars: ["tata", "toyota", "porsche", "ford", "honda"]
+//     },
+//   ];
+
+
+
+//   let manyCars = users.find(user => user.cars.length > 3);
+//   console.log(manyCars);
+
+
+// let users = [
+//   {
+//     name: "William",
+//     age: 30,
+//     country: "UZB",
+//     cars: ["BMW", "Mercedes"]
+//   },
+//   {
+//     name: "Bob",
+//     age: 40,
+//     country: "USA",
+//     cars: ["BMW", "tesla", "volvo"]
+//   },
+//   {
+//     name: "Jane",
+//     age: 25,
+//     country: "UZB",
+//     cars: ["lambo", "rr",  "ferrari", "bugatti"]
+//   },
+//   {
+//     name: "Nick",
+//     age: 41,
+//     country: "USA",
+//     cars: ["tata", "toyota", "porsche", "ford", "honda"]
+//   },
+// ];
+
+
+
+// let namesWithO = users.findIndex(user => user.name.includes("o"))
+
+// console.log(namesWithO);
+
+
