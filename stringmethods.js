@@ -123,17 +123,17 @@
 
 // If no occurrences can be found, a count of 0 should be returned.
 
-function strCount(str, letter) {
-    let count = 0;
-    for (let i = 0; i < str.length; i++) {
-        if (str[i] === letter) {
-            count++;
-        }
-    }
-    return count;
-}
+// function strCount(str, letter) {
+//     let count = 0;
+//     for (let i = 0; i < str.length; i++) {
+//         if (str[i] === letter) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
 
-console.log(strCount("Hello", "e"));
+// console.log(strCount("Hello", "e"));
 
 
 // 8.When provided with a letter, return its position in the alphabet.
