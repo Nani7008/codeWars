@@ -1,1 +1,1 @@
-console.log(flickSwitch(['codewars', 'flick', 'code', 'wars'])); 
+// console.log(flickSwitch(['codewars', 'flick', 'code', 'wars'])); 

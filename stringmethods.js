@@ -124,17 +124,16 @@
 // If no occurrences can be found, a count of 0 should be returned.
 
 function strCount(str, letter) {
-    const countLetters = str.split('');
     let count = 0;
-    for (let i = 0; i < countLetters.length; i++) {
-        if (countLetters[i] === letter) {
+    for (let i = 0; i < str.length; i++) {
+        if (str[i] === letter) {
             count++;
         }
     }
     return count;
 }
 
-// console.log(strCount("Hello", "l"));
+console.log(strCount("Hello", "e"));
 
 
 // 8.When provided with a letter, return its position in the alphabet.
@@ -223,10 +222,10 @@ function strCount(str, letter) {
 //   }
 
 // 10.What if we need the length of the words separated by a space to be added at the end of that same word and have it returned as an array?
-function addLength(str) {
-    let string = str.split(' ');
-    let result = string.map(word => `${word} ${word.length}`);
-    return result;
-}
+// function addLength(str) {
+//     let string = str.split(' ');
+//     let result = string.map(word => `${word} ${word.length}`);
+//     return result;
+// }
 
-console.log(addLength("you will win")); 
+// console.log(addLength("you will win")); 
