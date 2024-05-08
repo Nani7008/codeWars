@@ -107,13 +107,14 @@
 // It should look like this:
 // Sam Harris => S.H
 // patrick feeney => P.F
-function abbrevName(name) {
-    let strs = name.split(" ");
-    let initials = strs.map(word => word[0].toUpperCase()).join(".");
-    return initials;
-}
 
-console.log(abbrevName("Mannopov Narimonjon"));
+// function abbrevName(name) {
+//     let strs = name.split(" ");
+//     let initials = strs.map(word => word[0].toUpperCase()).join(".");
+//     return initials;
+// }
+
+// console.log(abbrevName("Mannopov Narimonjon"));
 
 
 

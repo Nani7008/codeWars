@@ -327,3 +327,75 @@
 // console.log(namesWithO);
 
 
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 5]
+// const filteredNums = nums.filter( (value) => value%2==0 )
+// console.log(filteredNums);
+
+// const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+// const filteredNums = nums.filter( (value) => value%2==0 && value%5==0)
+// console.log(filteredNums);
+
+// const users = ["Jack", "John", "Mark", "Alex", "Ann"]
+// const filterByName = users.filter((value)=>value.toLowerCase().startsWith("a"))
+// console.log(filterByName);
+
+// const students = [
+//     {
+//        _id: 1,
+//        name: "Jack",
+//        age: 25,
+//        department: "IT",
+//        salary: 12000,
+//     },
+//     {
+//        _id: 2,
+//        name: "Jane",
+//        age: 19,
+//        department: "Software Engineering",
+//        salary: 1000,
+//     },
+//     {
+//        _id: 3,
+//        name: "Bob",
+//        age: 21,
+//        department: "frontend",
+//        salary: 15000,
+//     },
+//     {
+//        _id: 4,
+//        name: "Sindor",
+//        age: 19,
+//        department: "Frontend",
+//        salary: 1000,
+//     },
+//     {
+//        _id: 5,
+//        name: "Farhodbek",
+//        age: 19,
+//        department: "Software Engineering",
+//        salary: 1000,
+//     },
+//  ];
+
+//  const filterBySalaryAndDepartment = students.filter((value)=>value.salary>1000 && value.department.toLowerCase()==="frontend")
+//  console.table(filterBySalaryAndDepartment);
+
+
+    // const nums = [2,4,1,3,6,6,7,8,10,11,5,12]
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
